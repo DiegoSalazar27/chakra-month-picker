@@ -1,6 +1,10 @@
 import { Box, HStack, useDisclosure } from "@chakra-ui/react";
 import { useState } from "react";
-import { MonthInput, MonthPicker, MonthPickerValue } from "chakra-month-picker";
+import {
+  MonthInput,
+  MonthPicker,
+  MonthPickerValue,
+} from "@diegosalazar27/chakra-month-picker/src/index";
 
 export function Form() {
   const [value, setValue] = useState<MonthPickerValue>({
