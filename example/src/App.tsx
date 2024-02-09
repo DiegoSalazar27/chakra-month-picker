@@ -19,7 +19,7 @@ function App() {
       <VStack maxW={"container.sm"} py={10} spacing={10}>
         <HStack w={"full"} justifyContent={"space-between"}>
           <Box></Box>
-          <Heading>Chakra Forms</Heading>
+          <Heading>Chakra Month Picker</Heading>
           <Tooltip label={`Toggle ${colorMode} Mode`}>
             <IconButton
               icon={colorMode === "dark" ? <MdDarkMode /> : <MdLightMode />}
@@ -30,8 +30,7 @@ function App() {
           </Tooltip>
         </HStack>
         <Text textAlign={"center"}>
-          An utility to create forms using chakraUI and react-hook-forms using a
-          json object, also supports zod schema for validation.
+          A custom field for handling months
         </Text>
         <Form />
       </VStack>

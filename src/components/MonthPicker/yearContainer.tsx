@@ -1,4 +1,4 @@
-import { Flex, Button, Text } from "@chakra-ui/react";
+import { Flex, Button, Text, useColorModeValue } from "@chakra-ui/react";
 import React from "react";
 
 export function YearContainer({
@@ -8,6 +8,8 @@ export function YearContainer({
   year: number;
   changeYear: (year: number) => void;
 }) {
+  const color = useColorModeValue("#333", "#FFF");
+
   return (
     <Flex
       width={"full"}
@@ -27,7 +29,7 @@ export function YearContainer({
           height="24"
           viewBox="0 0 24 24"
           fill="none"
-          stroke={"#555"}
+          stroke={color}
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -36,7 +38,12 @@ export function YearContainer({
           <path d="m15 18-6-6 6-6" />
         </svg>
       </Button>
-      <Text as={"span"} aria-description="Year selected" fontSize={"1.4rem"}>
+      <Text
+        color={color}
+        as={"span"}
+        aria-description="Year selected"
+        fontSize={"1.4rem"}
+      >
         {year}
       </Text>
       <Button
@@ -50,7 +57,7 @@ export function YearContainer({
           height="24"
           viewBox="0 0 24 24"
           fill="none"
-          stroke={"#333"}
+          stroke={color}
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"

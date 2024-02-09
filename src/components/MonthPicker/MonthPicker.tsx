@@ -107,11 +107,11 @@ export function MonthPicker(props: MonthPickerParams) {
 
                     return changeMonth(index);
                   }}
-                  textColor={
-                    index == month && props.value.year == year
-                      ? "white"
-                      : "#777"
-                  }
+                  // textColor={
+                  //   index == month && props.value.year == year
+                  //     ? "white"
+                  //     : "#777"
+                  // }
                   // colorScheme={
                   //   index == month && props.value.year == year
                   //     ? "primary"
