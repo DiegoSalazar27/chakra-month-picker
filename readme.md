@@ -53,6 +53,13 @@ Currently selected month data is an object with the following structure:
 
 It will get saved on set parent component state with `onChange` event.
 
+### Roadmap
+
+- Allow or disable selection based on a range of given values
+- Add eslint
+- Add Pretier
+- Add Tests
+
 ## License
 
 MIT © [Diego Salazar](https://github.com/diegosalazar27)
