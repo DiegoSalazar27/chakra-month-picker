@@ -1,6 +1,6 @@
 {
   "name": "@diegosalazar27/chakra-month-picker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Month picker component for ReactJS using ChakraUI. Based on React-lite-month-picker",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
