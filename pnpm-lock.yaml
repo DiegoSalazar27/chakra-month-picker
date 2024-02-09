@@ -9,17 +9,14 @@ dependencies:
     specifier: ^2.8.2
     version: 2.8.2(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(framer-motion@11.0.3)(react-dom@18.2.0)(react@18.2.0)
   '@diegosalazar27/chakra-month-picker':
-    specifier: ^0.0.1
-    version: 0.0.1(@chakra-ui/react@2.8.2)(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(framer-motion@11.0.3)(react@18.2.0)
+    specifier: ^0.0.3
+    version: 0.0.3(@chakra-ui/react@2.8.2)(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(framer-motion@11.0.3)(react@18.2.0)
   '@emotion/react':
     specifier: ^11.11.3
     version: 11.11.3(@types/react@18.2.55)(react@18.2.0)
   '@emotion/styled':
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.3)(@types/react@18.2.55)(react@18.2.0)
-  chakra-month-picker:
-    specifier: link:E:/code/portfolio/chakra-month-picker
-    version: 'link:'
   framer-motion:
     specifier: ^11.0.3
     version: 11.0.3(react-dom@18.2.0)(react@18.2.0)
@@ -1384,8 +1381,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@diegosalazar27/chakra-month-picker@0.0.1(@chakra-ui/react@2.8.2)(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(framer-motion@11.0.3)(react@18.2.0):
-    resolution: {integrity: sha512-3twjCQGsCMP67iODZSqTW4uerJbEg19Ew1tnr7RBNRcpC5Dqxdj6qoAlU5o2Vr1zfDiahAOOgWpTFaX50kfqfg==}
+  /@diegosalazar27/chakra-month-picker@0.0.3(@chakra-ui/react@2.8.2)(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.55)(framer-motion@11.0.3)(react@18.2.0):
+    resolution: {integrity: sha512-CsrvHkayMt1A9ASrsfdfcZ/jCyCDwfjZodMlXD8QDrPyRhL3TGP3MD+BP+4QbaNzm3wZMele7yj8xk9ue1cHBA==}
     peerDependencies:
       '@chakra-ui/react': ^2.8.2
       '@emotion/react': ^11.11.3

@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
-    "@diegosalazar27/chakra-month-picker": "^0.0.1",
+    "@diegosalazar27/chakra-month-picker": "^0.0.3",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "framer-motion": "^11.0.3",

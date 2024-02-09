@@ -4,7 +4,7 @@ import {
   MonthInput,
   MonthPicker,
   MonthPickerValue,
-} from "@diegosalazar27/chakra-month-picker/src/index";
+} from "@diegosalazar27/chakra-month-picker/";
 
 export function Form() {
   const [value, setValue] = useState<MonthPickerValue>({
