@@ -1,26 +1,40 @@
 {
-  "name": "react-lite-month-picker",
-  "version": "1.2.15",
-  "description": "Simple, modern and customizable month picker component for ReactJS.",
-  "main": "src/index.js",
+  "name": "chakra-month-picker",
+  "version": "0.0.1",
+  "description": "Month picker component for ReactJS using ChakraUI. Based on React-lite-month-picker",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
+    "ChakraUI",
     "react-month-picker",
     "month-picker",
     "month",
     "picker"
   ],
-  "author": "Henri Parviainen",
+  "author": "Diego Salazar",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/henripar/react-lite-month-picker"
+    "url": "https://github.com/DiegoSalazar27/chakra-month-picker"
   },
   "homepage": "https://www.react-lite-month-picker.dev",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
   "peerDependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@types/react": "^18.2.55",
+    "framer-motion": "^11.0.3",
     "react": "^18.2.0"
   }
 }
