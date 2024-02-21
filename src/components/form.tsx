@@ -18,7 +18,7 @@ export function Form() {
   }
 
   return (
-    <HStack spacing={4} maxW={"container.lg"}>
+    <HStack spacing={12} maxW={"container.lg"}>
       <Box position={"relative"}>
         <MonthInput value={value} toggle={onToggle} isOpen={isOpen} />
         <MonthPicker
